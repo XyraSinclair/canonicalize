@@ -9,8 +9,13 @@ boundary — canonicalization that evaporates with the session is churn.
 
 The seven target properties are defined in [BOOK.md](BOOK.md). This file is
 the procedure. The agent-executable form is
-[skills/canonicalize/SKILL.md](skills/canonicalize/SKILL.md); battle-tested
-reviewer prompts are in [templates/review-prompts.md](templates/review-prompts.md).
+[skills/canonicalize/SKILL.md](skills/canonicalize/SKILL.md); reviewer
+prompts are in [templates/review-prompts.md](templates/review-prompts.md).
+
+One starting rule before any pass: the drive is expensive, and not every
+artifact deserves it — Erdős did not seek a Book proof for every lemma.
+Canonicalize what will be used, cited, or built on; a throwaway gold-plated
+is the dual of a keeper abandoned rough.
 
 ## Pass 0 — Read everything
 
@@ -77,8 +82,9 @@ instead of prose delivering it), and every sentence that does not earn its
 place. Prefer the named specific to the vague impressive: "a three-persona
 panel (Feynman, von Neumann, Grothendieck)" over "a diverse genius-style
 panel." Deduplicate across files: one canonical statement per idea, pointers
-elsewhere — except where each entry document must stand alone, and then vary
-the phrasing deliberately.
+elsewhere — except where each entry document must stand alone, and then
+either vary the phrasing deliberately or repeat it exactly as a minted
+slogan; never the accidental in-between.
 
 **Gate:** an independent prose audit (see review-prompts) reports the corpus
 reads as one voice, and its must-fix list is empty or applied.
@@ -93,8 +99,8 @@ pass** (a different model family, prompted to refute the central claims —
 diversity catches what redundancy cannot). Triage adversarially: findings
 are accepted, or *rejected with a written reason* — never silently dropped.
 Fix, commit, and run another round. Loop until a round produces **zero
-must-fix findings**. Two or three rounds is typical; declaring convergence
-after one is the tell that you graded your own homework.
+must-fix findings**. The one full receipt took four rounds; declaring
+convergence after one is the tell that you graded your own homework.
 
 **Gate:** the latest round found nothing that must change. Residue from all
 rounds — surviving objections, deferred items, rejected-with-reason calls —
@@ -120,6 +126,14 @@ at the tagged commit, and a final fresh-clone smoke test passes.
 - **Averaging the shape away** — smoothing distinctive structure into
   generic professionalism. The scrape removes what is *false or unearned*,
   never what is sharp.
+- **Vacuous denominator** — a property list weak enough to pass from birth:
+  easy rows, precommitted, covered, converged, certifying nothing.
+  Precommitment protects against grading drift, not under-specification —
+  so the reviewers are told to ask which property *should* be a row and is
+  absent, not only whether the present rows are true.
+- **Gold-plating the throwaway** — running the full drive on an artifact
+  nobody will use for an hour, let alone a hundred. The starting rule above
+  is a gate too.
 - **Convergence by fatigue** — stopping because you are tired, labeled as
   stopping because it is done. The gate is a reviewer round finding nothing,
   not your sense of enough.

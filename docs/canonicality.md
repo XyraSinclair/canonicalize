@@ -55,7 +55,7 @@ only to add receipts.*
 |---|----------|-------|
 | E1 | License present | covered — MIT |
 | E2 | Revision discipline stated: templates and doctrine change only from receipts — a prompt or pattern is added/edited when a drive proves it caught or missed something real | covered — README Status |
-| E3 | Release tagged; public metadata accurate | covered — tag `v0.1.0` and repo metadata created at publish of this revision; verify with `git tag` and the repo page |
+| E3 | Release tagged; public metadata accurate | covered when `v0.1.0` exists (created at publish, pointing at this revision) — on any commit where the tag does not yet exist, read this row as a named-gap; verify with `git tag` |
 | E4 | Community scaffolding | ruled-out for now — single-operator method; revisit on the first external receipt |
 
 ## Summary

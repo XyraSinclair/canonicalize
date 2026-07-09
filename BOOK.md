@@ -85,9 +85,9 @@ else's.
 
 Underneath the seven properties is one principle. An artifact is understood
 to the degree it is *compressed*: regenerable from a small set of invariants
-rather than merely enumerated. Book-shape is the compression fixed point —
-the form where nothing can be removed without losing coverage and nothing
-needs adding to explain what exists. Canonicalization is not smoothing; most
+rather than merely enumerated. Book-shape is the drive's fixed point — the
+form where nothing can be removed without losing coverage and nothing needs
+adding to explain what exists. Canonicalization is not smoothing; most
 editing that calls itself polish is averaging, and averaging destroys shape.
 The work is the opposite: find the actual shape, and cut everything that is
 not it.
@@ -96,3 +96,8 @@ Which is why the hundred-hour test is the right test. Novelty survives an
 hour. Thoroughness survives ten. Only *rightness of form* survives a
 hundred, because by then the user has pushed on every wall, and every wall
 that was decoration has fallen.
+
+One scope line, said once: these properties certify form, not worth. The
+hundred-hour test presumes an artifact someone should use for a hundred
+hours; whether it deserves the drive is a prior judgment the method does
+not make for you.

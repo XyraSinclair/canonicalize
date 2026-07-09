@@ -6,8 +6,8 @@ reviewers share blind spots; these are deliberately disjoint. Substitute
 with a written reason committed into the artifact. The round is clean when
 it returns zero must-fix findings.
 
-All four are battle-tested; each caught real defects the author could no
-longer see (receipts: [../receipts/](../receipts/)).
+Each caught real defects the author could no longer see
+(receipts: [../receipts/](../receipts/)).
 
 ## 1. The stranger-test (cold clone, README-literal, denominator audit)
 
@@ -24,7 +24,9 @@ longer see (receipts: [../receipts/](../receipts/)).
 > 6. Read `docs/canonicality.md` adversarially: for each row labeled
 >    "covered", check whether it is ACTUALLY true of the clone in front of
 >    you. A false "covered" is the worst bug class in the repo — that file
->    is its precommitted oracle.
+>    is its precommitted oracle. Then the harder question: name any property
+>    that SHOULD be a row on this list and is absent — a denominator can lie
+>    by omission as well as by label.
 > 7. Note everything a demanding first-time user would wince at: dead ends,
 >    undefined jargon, leftover private files, promise/experience gaps.
 > Clean up. Report: (a) VERDICT — would a serious builder trust this after
@@ -77,7 +79,8 @@ longer see (receipts: [../receipts/](../receipts/)).
 > what prior reviews missed: (1) attack the core formalism/mechanism — is it
 > internally coherent AND honestly described in the prose? (2) attack the
 > gates/checks — which can fire vacuously or be gamed? (3) attack the
-> self-assessment (`docs/canonicality.md`) — any "covered" that is false?
+> self-assessment (`docs/canonicality.md`) — any "covered" that is false,
+> and any property that should be a row and is absent?
 > (4) find correctness bugs the existing tests miss; (5) name the single
 > deepest remaining weakness. Be specific: file, line, quote, concrete
 > failure. End with a ranked must-fix list. Findings only — no praise.
@@ -99,6 +102,6 @@ and a rejection you cannot write down is a finding you should have accepted.
 > achievable. Report: VERDICT (converged / must-fix remains) + findings
 > with file:line and exact quotes.
 
-The empirical pattern: round 1 finds leaks and strata, round 2 (cross-model)
-finds the deep formalism defects, round 3 finds the one sentence the round-2
-fixes left stale, round 4 finds nothing. Budget for that shape.
+The ideonomy drive ran: round 1, leaks and strata; round 2 (cross-model),
+the deep formalism defects; round 3, the one sentence the round-2 fixes left
+stale; round 4, nothing. Budget for that shape until more receipts revise it.

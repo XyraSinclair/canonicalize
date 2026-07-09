@@ -50,8 +50,8 @@ silent uninstallability.
 If the artifact states an invariant about itself ("a compression is never
 worse than raw", "the classifier can't be satisfied without engaging prior
 state"), encode the adversarial counter-case a reviewer found as a
-permanent regression test. Reviewer findings are the best test fixtures in
-existence: each one is a proven blind spot.
+permanent regression test. Reviewer findings make the best test fixtures:
+each one is a proven blind spot.
 
 ## Meta
 

@@ -1,11 +1,15 @@
 # Canonicality: the coverage denominator for <ARTIFACT>
 
-<!-- Template. Copy into the target as docs/canonicality.md, adapt rows to
-     the artifact, and write it in TARGET STATE before the drive: it is the
-     precommitted oracle the drive is scored against. Labels: covered
-     (holds, verified) / named-gap (does not hold; the gap is the work) /
-     ruled-out (deliberately out of scope, with the reason). Rows may be
-     relabeled with reasons, never deleted to hide. -->
+<!-- Template. Copy into the target as docs/canonicality.md at Pass 1 —
+     after the full read, before any fix — written in TARGET STATE: it is
+     the precommitted oracle the drive is scored against. Labels: covered
+     (holds, verified — a target-state row earns this label only when
+     verified; until then it is the drive's to-do, and at publish every
+     remaining "covered" must be true at HEAD) / named-gap (does not hold;
+     the gap is the work) / ruled-out (deliberately out of scope, with the
+     reason). Rows may be relabeled with reasons, never deleted to hide.
+     And the dual discipline: a denominator can lie by omission — reviewers
+     are told to name properties that should be rows and are absent. -->
 
 "Canonical" is not a feeling; it is this labeled list. The artifact may not
 call itself finished while any row is unlabeled.

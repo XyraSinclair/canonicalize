@@ -37,7 +37,7 @@ disciplined drive with gates:
   [denominator template](templates/canonicality.md), the
   [consistency-test patterns](templates/consistency-tests.md), and the
   [reviewer prompts](templates/review-prompts.md) for all four lenses plus
-  the convergence round — battle-tested, fire as written.
+  the convergence round — fire as written.
 - **[receipts/](receipts/ideonomy-2026-07-09.md)** — the method's evidence:
   a full drive on a real repo that had already survived two frontier-model
   reviews, and in which four adversarial rounds still surfaced 34 accepted
