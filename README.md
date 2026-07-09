@@ -87,9 +87,11 @@ this; you will recognize it if you have it.
 
 The doctrine, drive, templates, and skill are complete and self-applied —
 this repo's own denominator is [docs/canonicality.md](docs/canonicality.md),
-audited in its own adversarial round. The method has one full receipt; the
-named gap is corpus breadth: receipts from more drives, on other people's
-artifacts, by other operators. The template set grows only from receipts —
-every prompt and pattern here earned its place by catching something real.
+audited across its own adversarial rounds. The method has one full receipt;
+the named gaps are evidence-shaped: corpus breadth (receipts from more
+drives, on other people's artifacts, by other operators) and lens diversity
+(this repo's own self-drive has had no cross-model pass yet). The template
+set grows only from receipts — every prompt and pattern here earned its
+place by catching something real.
 
 MIT licensed.

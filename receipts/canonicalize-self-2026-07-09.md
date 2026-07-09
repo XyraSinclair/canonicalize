@@ -94,8 +94,22 @@ prescribes — essence audit + stranger-test + convergence rounds, all from
 one model family; no cross-model pass has run on this repo yet. Carried as
 a canonicality row, not hidden.
 
-## Round 3 — the empty round, measured
+## Round 3 — second attempt: NOT empty
 
-Pending at this commit: the round runs against the pushed round-2 fixes,
-fresh context, strict must-fix bar. Its result is appended here only after
-it returns — per the discipline round 2 forced.
+One must-fix, and it was the residue-of-the-fix class a third time: round
+2's C6 fix added the row but not the prose that enumerates the gaps — the
+canonicality Summary still said "(C4, C5)" and the README Status still said
+"the named gap is" in the singular. Both swept; the dated-evidence phrasing
+adopted for rows whose "at release" wording read as promises (A3, A5). The
+round also re-verified all six round-2 fixes in the tree and re-proved
+`check.py` non-vacuous by mutation.
+
+The lesson the class keeps teaching: a fix is not applied until every
+surface that states the fixed fact is swept — grep for the fact, not the
+file. Three strikes of this class across two repos is the strongest argument
+in these receipts for Pass 2's rule that enforced classes die and attended
+ones recur.
+
+## Round 4 — the empty round, measured
+
+Pending at this commit; result appended only after the round returns.

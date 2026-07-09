@@ -15,9 +15,9 @@ only to add receipts.*
 |---|----------|-------|
 | A1 | Structural counts (seven properties, passes 0–6) match the documents' own headings, test-enforced; other counts avoided | covered — `check.py` |
 | A2 | The skill is a faithful compression of BOOK+DRIVE (no contradiction between the standalone summary and the full doctrine) | covered — verified in the self-drive review round |
-| A3 | Every intra-repo link resolves, test-enforced; external links verified at release | covered — `check.py` + manual sweep |
+| A3 | Every intra-repo link resolves, test-enforced; external links verified manually | covered — `check.py`; external links last verified 2026-07-09 |
 | A4 | The receipt states only what actually happened in the ideonomy drive, checkable against that repo's public history | covered — commits/tags/ledger at XyraSinclair/ideonomy |
-| A5 | No stale claims | covered — swept at release; `check.py` guards the structural class |
+| A5 | No stale claims | covered — last swept 2026-07-09 (three review rounds); `check.py` guards the structural class |
 
 ## B. First contact
 
@@ -45,7 +45,7 @@ only to add receipts.*
 | # | Property | Label |
 |---|----------|-------|
 | D1 | Zero dependencies; stdlib check only | covered |
-| D2 | Every file has a stated reason; no orphans | covered — README "What's here" enumerates all surfaces |
+| D2 | Every file has a stated reason; no orphans | covered — every file is referenced from the README; `check.py` catches orphaned links |
 | D3 | Packaging complete; install paths exercised | covered — `claude plugin validate` + `install.sh` run |
 | D4 | Skill frontmatter satisfies the spec, test-enforced | covered — `check.py` |
 | D5 | One austere voice; no unearned adjectives | covered — scraped at birth; audited in the self-drive round |
@@ -61,7 +61,9 @@ only to add receipts.*
 
 ## Summary
 
-The method, doctrine, and tooling are covered; the *evidence base* is the
-named gap (C4, C5) — one deep receipt, not a corpus. The prose asserts the
-method's yield on that receipt and nowhere claims the generality only more
-receipts could prove.
+The method, doctrine, and tooling are covered; the named gaps are all
+evidence-shaped (C4, C5, C6) — one deep receipt rather than a corpus, the
+hundred-hour claim about the method itself unproven at n=1, and a self-drive
+lens set narrower than the four lenses Pass 5 prescribes. The prose asserts
+the method's yield on the receipt it has and nowhere claims the generality
+only more receipts could prove.
