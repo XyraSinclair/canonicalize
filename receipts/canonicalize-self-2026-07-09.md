@@ -127,6 +127,19 @@ covered rows verifiable, E3 self-describing correctly. Its nits — the E3
 pre-tag reading in the Summary, D2's phrasing, singular "round" citations —
 were taken with the fix.)
 
-## Round 5 — the empty round, measured
+## Round 5 — fourth attempt: NOT empty
+
+Two must-fixes, strikes five and six of the class — both live
+count-enumerations the round-4 guard does not cover: the A5 row said "three
+review rounds" after a fourth had run (a stale round count inside the
+no-stale-claims row), and `check.py`'s docstring enumerated "patterns 3–5"
+while the file had implemented pattern 1 since birth and gained pattern 2
+in round 4 (a stale coverage enumeration, in the file that enforces stale
+enumerations). Resolution per the repo's own pattern-1 rule: counts that
+drift by construction are *avoided*, not bumped — both enumerations
+removed rather than maintained. The round also proved the named-gap guard
+non-vacuous by mutation and re-verified every other row live.
+
+## Round 6 — the empty round, measured
 
 Pending at this commit; result appended only after the round returns.

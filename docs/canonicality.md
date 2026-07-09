@@ -14,10 +14,10 @@ only to add receipts.*
 | # | Property | Label |
 |---|----------|-------|
 | A1 | Structural counts (seven properties, passes 0–6) match the documents' own headings, test-enforced; other counts avoided | covered — `check.py` |
-| A2 | The skill is a faithful compression of BOOK+DRIVE (no contradiction between the standalone summary and the full doctrine) | covered — cross-read in self-drive round 1 and re-verified in rounds 2–4 |
+| A2 | The skill is a faithful compression of BOOK+DRIVE (no contradiction between the standalone summary and the full doctrine) | covered — cross-read in self-drive round 1, re-verified in the later rounds |
 | A3 | Every intra-repo link resolves, test-enforced; external links verified manually | covered — `check.py`; external links last verified 2026-07-09 |
 | A4 | The receipt states only what actually happened in the ideonomy drive, checkable against that repo's public history | covered — commits/tags/ledger at XyraSinclair/ideonomy |
-| A5 | No stale claims | covered — last swept 2026-07-09 (three review rounds); `check.py` guards the structural class |
+| A5 | No stale claims | covered — last swept 2026-07-09, across the self-drive rounds; `check.py` guards the structural class |
 
 ## B. First contact
 

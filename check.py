@@ -2,7 +2,7 @@
 """Self-check: this repo's own consistency, enforced (BOOK.md property 2).
 
 Stdlib only, offline, fast. Run: python3 check.py
-Also a minimal live example of templates/consistency-tests.md patterns 3–5.
+Also a minimal live example of the templates/consistency-tests.md patterns.
 """
 
 from __future__ import annotations
@@ -75,12 +75,13 @@ canon = (ROOT / "docs" / "canonicality.md").read_text()
 gap_ids = [m.group(1) for m in re.finditer(
     r"^\|\s*([A-E]\d+)\s*\|[^|]*\|\s*named-gap", canon, re.M)]
 readme = (ROOT / "README.md").read_text()
+check("## Status" in readme, "README lost its Status section; the gap guard needs it")
 status = readme.split("## Status", 1)[-1]
 for gid in gap_ids:
     check(gid in status,
           f"named-gap row {gid} missing from README Status enumeration")
 
-# 2. The skill executes alone: it may not depend on repo-relative links -------
+# standalone-skill (BOOK property 3 / B5): no repo-relative dependencies ------
 skill = (ROOT / "skills" / "canonicalize" / "SKILL.md").read_text()
 check(not re.search(r"\]\((?!http)[^)]+\)", skill),
       "canonicalize skill carries relative links; it must execute standalone")
