@@ -36,8 +36,8 @@ disciplined drive with gates:
 - **[templates/](templates/)** — the working parts: the
   [denominator template](templates/canonicality.md), the
   [consistency-test patterns](templates/consistency-tests.md), and the
-  [reviewer prompts](templates/review-prompts.md) for all four lenses plus
-  the convergence round — fire as written.
+  [reviewer prompts](templates/review-prompts.md) for every lens plus the
+  convergence round — fire as written.
 - **[receipts/](receipts/)** — the method's evidence: a full drive on a
   real repo that had already survived two frontier-model reviews, in which
   three adversarial rounds plus a convergence verdict still surfaced 34
@@ -51,7 +51,7 @@ git clone https://github.com/XyraSinclair/canonicalize && cd canonicalize
 python3 check.py        # the repo's own consistency, enforced (property 2, live)
 ```
 
-Then read [BOOK.md](BOOK.md) — five minutes — and skim a
+Then read [BOOK.md](BOOK.md) and skim a
 [receipt](receipts/ideonomy-2026-07-09.md) to see the yield shape.
 
 ## Install the skill

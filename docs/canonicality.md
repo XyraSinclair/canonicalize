@@ -38,7 +38,7 @@ only to add receipts.*
 | C3 | The drive's own failure modes documented as prominently as its passes | covered — DRIVE.md final section |
 | C4 | Corpus breadth: receipts from multiple drives, on others' artifacts, by other operators | named-gap — one full receipt (ideonomy); the template set grows only from receipts |
 | C5 | The hundred-hour claim about the *method itself* is empirical and unproven at one receipt | named-gap — honesty about the recursion: this repo's own C-row discipline applies |
-| C6 | The self-drive's lens set matches what Pass 5 prescribes (four lenses, cross-model diversity) | named-gap — essence + stranger + convergence rounds ran, all one model family; no cross-model pass on this repo yet |
+| C6 | The self-drive's lens set matches what Pass 5 prescribes (the full lens set, cross-model diversity included) | named-gap — essence + stranger + convergence rounds ran, all one model family; no cross-model pass on this repo yet |
 
 ## D. Craft
 
@@ -64,7 +64,7 @@ only to add receipts.*
 The method, doctrine, and tooling are covered; the named gaps are all
 evidence-shaped (C4, C5, C6) — one deep receipt rather than a corpus, the
 hundred-hour claim about the method itself unproven at n=1, and a self-drive
-lens set narrower than the four lenses Pass 5 prescribes. (E3 additionally
+lens set narrower than the one Pass 5 prescribes. (E3 additionally
 reads as a named-gap on any pre-tag commit, per its own label.) The prose
 asserts the method's yield on the receipt it has and nowhere claims the
 generality only more receipts could prove. The gap enumeration itself is

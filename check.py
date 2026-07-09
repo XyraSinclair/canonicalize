@@ -59,8 +59,13 @@ for d in sorted((ROOT / "skills").iterdir()):
 book = (ROOT / "BOOK.md").read_text()
 props = len(re.findall(r"^## \d+\.", book, re.M))
 check(props == 7, f"BOOK.md numbered properties: {props} != 7")
-check("seven properties" in book,
-      "BOOK.md prose count drifted from its numbered sections")
+# Every surface restating the property count (a minted slogan) must carry
+# the word matching BOOK's numbered heads.
+word = {5: "five", 6: "six", 7: "seven", 8: "eight", 9: "nine"}.get(props, "")
+for rel in ("BOOK.md", "README.md", "DRIVE.md", "skills/canonicalize/SKILL.md"):
+    text = (ROOT / rel).read_text()
+    check(bool(re.search(rf"{word}[^.\n]*properties", text, re.I)),
+          f"{rel}: property-count slogan drifted from BOOK.md's {props} heads")
 # DRIVE.md declares passes 0-6; verify the ladder is complete and ordered.
 drive = (ROOT / "DRIVE.md").read_text()
 passes = [int(n) for n in re.findall(r"^## Pass (\d+)", drive, re.M)]

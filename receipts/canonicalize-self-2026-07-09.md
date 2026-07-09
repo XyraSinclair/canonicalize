@@ -152,6 +152,17 @@ receipt; the guard is relabeled as the template's pattern 2, which it is.
 The lesson compounds: even the sentence that tells the class's origin story
 is a surface the class can strike.
 
-## Round 7 — the empty round, measured
+## Round 7 — sixth attempt: NOT empty
+
+Strike eight: "four lenses" asserted on four live surfaces — an unenforced
+structural count, outside the enforced set, while A1's "other counts
+avoided" stood covered. The count is avoided now on all four surfaces (the
+doctrine defines the lens set by enumeration, never by numeral), and the
+property-count slogan — the one structural count that IS enforced — had its
+guard extended from BOOK.md to every surface that restates it. The round
+verified everything else clean: the full numeral sweep found no other live
+count that was not enforced, definitional, frozen-with-provenance, or dated.
+
+## Round 8 — the empty round, measured
 
 Pending at this commit; result appended only after the round returns.

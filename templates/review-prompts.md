@@ -1,6 +1,6 @@
 # Reviewer prompts: the adversarial round, ready to fire
 
-Four lenses, run fresh-context and in parallel where possible. Identical
+Disjoint lenses, run fresh-context and in parallel where possible. Identical
 reviewers share blind spots; these are deliberately disjoint. Substitute
 `<REPO>`/`<URL>` and fire. Triage every finding: accept and fix, or reject
 with a written reason committed into the artifact. The round is clean when
