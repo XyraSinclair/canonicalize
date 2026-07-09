@@ -96,7 +96,6 @@ a canonicality row, not hidden.
 
 ## Round 3 — the empty round, measured
 
-Run after all round-2 fixes on the pushed HEAD, fresh context, strict
-must-fix bar. Result: **zero must-fix findings.** Two accepted nits carried
-from round 2 (session-side tallies; E3 flips at the publish tag). Converged
-— and this time the sentence was written after the round returned.
+Pending at this commit: the round runs against the pushed round-2 fixes,
+fresh context, strict must-fix bar. Its result is appended here only after
+it returns — per the discipline round 2 forced.
