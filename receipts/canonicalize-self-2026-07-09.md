@@ -110,6 +110,23 @@ file. Three strikes of this class across two repos is the strongest argument
 in these receipts for Pass 2's rule that enforced classes die and attended
 ones recur.
 
-## Round 4 — the empty round, measured
+## Round 4 — third attempt: NOT empty, and the class finally got its test
+
+One must-fix, the residue-of-the-fix class a **fourth** time: round 3 swept
+C4 and C6 into the README's gap enumeration but not C5 — two surfaces
+enumerating the same fact, disagreeing again. The response this time is the
+one Pass 2 prescribes and the receipts had been converging on: the class is
+now **enforced** — `check.py` asserts every named-gap row id in the
+denominator appears in the README's Status enumeration. Attended classes
+recur; enforced classes die. Four strikes across two repos is the receipt
+for that sentence.
+
+(Round 4 also confirmed everything else: the fact-sweep found all statements
+of the round counts agreeing, no unearned convergence claim anywhere, all
+covered rows verifiable, E3 self-describing correctly. Its nits — the E3
+pre-tag reading in the Summary, D2's phrasing, singular "round" citations —
+were taken with the fix.)
+
+## Round 5 — the empty round, measured
 
 Pending at this commit; result appended only after the round returns.
