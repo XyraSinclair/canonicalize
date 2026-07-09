@@ -99,8 +99,10 @@ pass** (a different model family, prompted to refute the central claims —
 diversity catches what redundancy cannot). Triage adversarially: findings
 are accepted, or *rejected with a written reason* — never silently dropped.
 Fix, commit, and run another round. Loop until a round produces **zero
-must-fix findings**. The one full receipt took four rounds; declaring
-convergence after one is the tell that you graded your own homework.
+must-fix findings** — a round that runs and finds nothing, not a reviewer
+predicting that it would. The first full receipt took three rounds plus a
+convergence verdict and was corrected on exactly this point; declaring
+convergence after one round is the tell that you graded your own homework.
 
 **Gate:** the latest round found nothing that must change. Residue from all
 rounds — surviving objections, deferred items, rejected-with-reason calls —

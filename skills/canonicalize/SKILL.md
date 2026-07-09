@@ -95,11 +95,12 @@ the code ships 37 (the demo prints both, disagreeing with itself); links
 point to sibling repos that were never published; a top skill references the
 author's private project by name twice; the review section is written in
 operator slang ("the real Oracle, browser-background"); and the repo's own
-self-assessment marks a release "covered" that was never tagged. Four
-rounds: round 1 (stranger + prose) finds leaks and strata; round 2
-(cross-model) refutes an engine invariant with a concrete two-item corpus
-and forces a real fix; round 3 finds one leftover sentence contradicting the
-fix; round 4 finds nothing — converged. Every class got a test; the gaps
-that remain (no external-corpus receipts yet) are named in the release notes
-rather than papered over. That is the difference between polished and
-canonical: the second one stops moving.
+self-assessment marks a release "covered" that was never tagged. Round 1
+(stranger + prose) finds leaks and strata; round 2 (cross-model) refutes an
+engine invariant with a concrete two-item corpus and forces a real fix;
+round 3 finds one leftover sentence contradicting the fix — and the drive
+stopped on round 3's verdict that no further round was needed, which a later
+audit correctly flagged: a predicted empty round is not a measured one.
+Every defect class got a test; the gaps that remain are named in the release
+notes rather than papered over. That is the difference between polished and
+canonical: the second one stops moving — and you measure the stop.

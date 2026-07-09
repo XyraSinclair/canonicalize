@@ -107,4 +107,6 @@ The ideonomy drive ran: round 1, leaks and strata; round 2 (cross-model),
 the deep formalism defects; round 3, the one sentence the round-2 fixes left
 stale — then stopped on round 3's verdict that no further round was needed,
 which is a prediction, not a measured empty round. Budget for the empty
-round; the strict gate is a round that runs and finds nothing.
+round; the strict gate is a round that runs and finds nothing. And write the
+receipt's empty-round section only after the round returns — a receipt
+written in anticipation is the covered-by-promise class, in a receipt.

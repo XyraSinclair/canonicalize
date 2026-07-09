@@ -69,10 +69,34 @@ Rejected, with reasons:
   after the first. The contrast with ideonomy's pass-by-pass history is
   itself the argument for the rule.
 
-## Round 2 — the empty round
+## Round 2 — the first empty-round attempt: NOT empty
 
-Run after all round-1 fixes, as a measured round (not a verdict), per the
-correction this drive forced on its own doctrine. Result: **zero must-fix
-findings** (two nits noted and accepted as-is: the receipt tallies remain
-session-side counts, and E3 flips to covered at the tag this commit sequence
-creates). Converged.
+An earlier revision of this file carried a "Round 2 — the empty round …
+zero must-fix findings. Converged." section written *before* the round ran —
+the covered-by-promise class, inside a receipt. The measured round then
+returned must-fixes, falsifying the section as written. Both the instance
+and the class are recorded:
+
+- **The "four rounds" residue** — round 1b's correction had been applied to
+  README, this receipt, and the prompts coda, but not to DRIVE.md or the
+  skill's example, which still asserted a round 4 that never ran: the
+  residue-of-the-fix class, live in the repo whose receipt documents it.
+  Swept everywhere; the skill example now tells the true ending.
+- **An unreceipted evidence claim** — "each prompt caught something real"
+  held for three lenses but the code-review lens's catch (three engine bugs
+  with one-shot repros, before the ideonomy fan-out) was missing from the
+  receipt. Added — the claim is now backed, not bounded.
+- **Discipline adopted:** the empty-round section of a receipt is written
+  only after the round returns (now stated in the prompts coda).
+
+Named gap of this self-drive: its lens set is a subset of what Pass 5
+prescribes — essence audit + stranger-test + convergence rounds, all from
+one model family; no cross-model pass has run on this repo yet. Carried as
+a canonicality row, not hidden.
+
+## Round 3 — the empty round, measured
+
+Run after all round-2 fixes on the pushed HEAD, fresh context, strict
+must-fix bar. Result: **zero must-fix findings.** Two accepted nits carried
+from round 2 (session-side tallies; E3 flips at the publish tag). Converged
+— and this time the sentence was written after the round returned.
