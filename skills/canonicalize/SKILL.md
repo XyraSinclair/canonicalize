@@ -18,8 +18,8 @@ description: >-
 # canonicalize
 
 Book-shape is a conjunction of seven checkable properties (stated fully in
-BOOK.md at https://github.com/XyraSinclair/canonicalize; summarized here so
-this file executes alone):
+BOOK.md at <https://github.com/XyraSinclair/canonicalize>; summarized here
+so this file executes alone):
 the artifact **states its own denominator**; its **truth is enforced by
 tests, not care**; it **works for a stranger in a minute and rewards the
 hundredth hour**; it speaks in **one voice with every sentence

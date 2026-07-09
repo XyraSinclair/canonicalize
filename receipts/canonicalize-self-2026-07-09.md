@@ -177,4 +177,21 @@ stale enumeration waiting to happen; a discovered list cannot forget.
 
 ## Round 9 — the empty round, measured
 
-Pending at this commit; result appended only after the round returns.
+**Zero must-fix findings.** The round mutation-verified the derived guards
+(including planting a brand-new file with wrong counts — both guards caught
+it unprompted: a discovered surface list cannot forget), re-proved every
+covered row live from a cold clone, swept every live numeral, and found
+nothing that must change. Two nits accepted (the skill's bare URL gained
+delimiters in the same commit as this entry; the skill's step numbering vs
+DRIVE's pass numbering was left as-is — the skill never calls its steps
+passes). Converged — this sentence was written after the round returned.
+
+## The strike ledger, closed
+
+Eight self-drive strikes of one class (stale enumerations across surfaces),
+plus the ideonomy drive's one, before the class died structurally: first by
+a synced-catalog guard, then by removing every live count that drifts by
+construction, finally by deriving the guarded surface list instead of
+remembering it. Attended classes recur; enforced classes die; and a guard
+whose scope is remembered is itself an attended class. Nine rounds to learn
+that in public, with receipts.
