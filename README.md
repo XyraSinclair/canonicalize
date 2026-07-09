@@ -26,8 +26,8 @@ disciplined drive with gates:
 ## What's here
 
 - **[BOOK.md](BOOK.md)** — the target state: the seven checkable properties
-  of book-shape, and the MDL soul underneath them (cut to the actual shape;
-  never average it away).
+  of book-shape, and the minimum-description-length soul underneath them
+  (cut to the actual shape; never average it away).
 - **[DRIVE.md](DRIVE.md)** — the procedure: passes 0–6, each with its gate,
   and the failure modes of the drive itself.
 - **[skills/canonicalize/](skills/canonicalize/SKILL.md)** — the executable
@@ -38,11 +38,11 @@ disciplined drive with gates:
   [consistency-test patterns](templates/consistency-tests.md), and the
   [reviewer prompts](templates/review-prompts.md) for all four lenses plus
   the convergence round — fire as written.
-- **[receipts/](receipts/ideonomy-2026-07-09.md)** — the method's evidence:
-  a full drive on a real repo that had already survived two frontier-model
-  reviews, and in which four adversarial rounds still surfaced 34 accepted
-  defects — including a false row in the target's own self-assessment —
-  before converging.
+- **[receipts/](receipts/)** — the method's evidence: a full drive on a
+  real repo that had already survived two frontier-model reviews, in which
+  three adversarial rounds plus a convergence verdict still surfaced 34
+  accepted defects (the session's triage tally) — including a false row in
+  the target's own self-assessment. Plus this repo's own self-drive receipt.
 
 ## Sixty seconds
 

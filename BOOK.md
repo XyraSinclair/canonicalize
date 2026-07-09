@@ -21,8 +21,9 @@ Canonical is not an adjective; it is a labeled list. The artifact carries an
 explicit inventory of the properties it claims — each marked **covered**
 (holds, verified), **named-gap** (does not hold; the gap is the work), or
 **ruled-out** (deliberately out of scope, with the reason) — and refuses the
-word "done" while any row is unlabeled. The list is written *before* the
-work, as a precommitted oracle: the properties are the expected values, the
+word "done" while any row is unlabeled. The list is written *before the
+fixes begin* — after the full read, ahead of everything else — as a
+precommitted oracle: the properties are the expected values, the
 drive is the run, and a row you wrote optimistically that turns out false is
 the most valuable find of the whole exercise.
 

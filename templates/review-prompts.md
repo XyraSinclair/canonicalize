@@ -36,8 +36,9 @@ Each caught real defects the author could no longer see
 ## 2. The prose audit (register, slop, redundancy, voice)
 
 > Prose audit of every public-facing document in `<REPO>`. The register
-> aspiration: austere, exact, high-signal. Do not re-litigate the
-> intellectual content — hunt the PROSE:
+> aspiration: austere, exact, high-signal. Calibrate to the artifact's own
+> declared register — density of a device is not the defect; drift from the
+> register is. Do not re-litigate the intellectual content — hunt the PROSE:
 > 1. Slop registers: promotional language, unearned adjectives, rule-of-three
 >    padding, em-dash overuse, vague attributions, "not X but Y" as a tic.
 > 2. Internal-notes leakage: operator slang, tooling diary, references to
@@ -104,4 +105,6 @@ and a rejection you cannot write down is a finding you should have accepted.
 
 The ideonomy drive ran: round 1, leaks and strata; round 2 (cross-model),
 the deep formalism defects; round 3, the one sentence the round-2 fixes left
-stale; round 4, nothing. Budget for that shape until more receipts revise it.
+stale — then stopped on round 3's verdict that no further round was needed,
+which is a prediction, not a measured empty round. Budget for the empty
+round; the strict gate is a round that runs and finds nothing.
