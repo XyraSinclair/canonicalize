@@ -1,0 +1,11 @@
+{
+  "name": "canonicalize",
+  "displayName": "Canonicalize",
+  "version": "0.1.0",
+  "description": "Drive a repo or document toward book-shape — the canonical form a demanding user would not change after 100 hours: precommitted denominator, machine-enforced truth, stranger-first surfaces, one-voice scrape, adversarial rounds until a round finds nothing.",
+  "author": {
+    "name": "Xyra Sinclair"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/XyraSinclair/canonicalize"
+}

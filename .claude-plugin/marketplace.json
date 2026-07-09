@@ -1,0 +1,18 @@
+{
+  "name": "canonicalize",
+  "owner": {
+    "name": "Xyra Sinclair"
+  },
+  "description": "Canonicalization: the applied art of driving artifacts to book-shape.",
+  "plugins": [
+    {
+      "name": "canonicalize",
+      "source": "./",
+      "description": "The canonicalize skill: passes, gates, and reviewer prompts for driving a repo to its canonical form.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Xyra Sinclair"
+      }
+    }
+  ]
+}
