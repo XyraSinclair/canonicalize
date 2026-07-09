@@ -163,6 +163,18 @@ guard extended from BOOK.md to every surface that restates it. The round
 verified everything else clean: the full numeral sweep found no other live
 count that was not enforced, definitional, frozen-with-provenance, or dated.
 
-## Round 8 — the empty round, measured
+## Round 8 — seventh attempt: NOT empty
+
+Strike nine, and the guard itself was the venue: its comment said "every
+surface restating the property count" while its hardcoded tuple named four —
+missing the denominator file, whose A1 row restates the count inside the
+very clause claiming counts are test-enforced. The structural fix, at last:
+the guarded surface list is now *derived* — every live document matching
+the restatement pattern is auto-guarded, receipts exempt as frozen history —
+and the pass-range restatements got the analogous derived guard. Both
+guards were mutation-verified before being trusted. A remembered list is a
+stale enumeration waiting to happen; a discovered list cannot forget.
+
+## Round 9 — the empty round, measured
 
 Pending at this commit; result appended only after the round returns.

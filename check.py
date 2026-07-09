@@ -59,17 +59,33 @@ for d in sorted((ROOT / "skills").iterdir()):
 book = (ROOT / "BOOK.md").read_text()
 props = len(re.findall(r"^## \d+\.", book, re.M))
 check(props == 7, f"BOOK.md numbered properties: {props} != 7")
-# Every surface restating the property count (a minted slogan) must carry
-# the word matching BOOK's numbered heads.
-word = {5: "five", 6: "six", 7: "seven", 8: "eight", 9: "nine"}.get(props, "")
-for rel in ("BOOK.md", "README.md", "DRIVE.md", "skills/canonicalize/SKILL.md"):
-    text = (ROOT / rel).read_text()
-    check(bool(re.search(rf"{word}[^.\n]*properties", text, re.I)),
-          f"{rel}: property-count slogan drifted from BOOK.md's {props} heads")
+check(bool(re.search(r"\bseven\b[^.\n]*\bproperties\b", book, re.I)),
+      "BOOK.md prose count drifted from its numbered sections")
 # DRIVE.md declares passes 0-6; verify the ladder is complete and ordered.
 drive = (ROOT / "DRIVE.md").read_text()
 passes = [int(n) for n in re.findall(r"^## Pass (\d+)", drive, re.M)]
 check(passes == list(range(7)), f"DRIVE.md pass ladder broken: {passes}")
+
+# Derived guards: EVERY live surface (receipts are frozen history, exempt)
+# that restates the property count or the pass range is auto-guarded — the
+# surface list is discovered, not remembered. A hardcoded list here was
+# itself a stale enumeration once; see the receipt's strike ledger.
+NUM_WORDS = {"five": 5, "six": 6, "seven": 7, "eight": 8, "nine": 9}
+for md in md_files():
+    if "receipts" in md.parts:
+        continue
+    text = md.read_text()
+    rel = md.relative_to(ROOT)
+    for m in re.finditer(
+            r"\b(five|six|seven|eight|nine)\b[^.\n]*?\bproperties\b",
+            text, re.I):
+        check(NUM_WORDS[m.group(1).lower()] == props,
+              f"{rel}: property-count restatement disagrees with BOOK.md "
+              f"({m.group(0)!r} vs {props} heads)")
+    for m in re.finditer(r"\bpasses 0[–-](\d+)", text):
+        check(int(m.group(1)) == max(passes),
+              f"{rel}: pass-range restatement disagrees with DRIVE.md "
+              f"({m.group(0)!r} vs 0-{max(passes)})")
 
 # 2. Parallel forms of one catalog agree: named-gap rows <-> README Status ----
 # This class kept recurring in the self-drive (a gap row added or changed
