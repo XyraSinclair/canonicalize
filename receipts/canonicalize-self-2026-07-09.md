@@ -140,6 +140,18 @@ drift by construction are *avoided*, not bumped — both enumerations
 removed rather than maintained. The round also proved the named-gap guard
 non-vacuous by mutation and re-verified every other row live.
 
-## Round 6 — the empty round, measured
+## Round 6 — fifth attempt: NOT empty
+
+Strike seven, and the venue was the guard's own narration: the check.py
+comment and the denominator Summary both said the class "struck four times
+in the self-drive" — a count contradicting this receipt's own strike ledger
+(three self-drive strikes before the test; four across two repos) — and the
+guard was labeled "1b", a pattern number that exists in no template. Both
+resolved by the round-5 rule: strike arithmetic lives only here, in the
+receipt; the guard is relabeled as the template's pattern 2, which it is.
+The lesson compounds: even the sentence that tells the class's origin story
+is a surface the class can strike.
+
+## Round 7 — the empty round, measured
 
 Pending at this commit; result appended only after the round returns.

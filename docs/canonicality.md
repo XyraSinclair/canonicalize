@@ -68,5 +68,5 @@ lens set narrower than the four lenses Pass 5 prescribes. (E3 additionally
 reads as a named-gap on any pre-tag commit, per its own label.) The prose
 asserts the method's yield on the receipt it has and nowhere claims the
 generality only more receipts could prove. The gap enumeration itself is
-test-enforced across surfaces (`check.py`) — a class that struck four times
-in the self-drive before it got its test.
+test-enforced across surfaces (`check.py`) — a class that kept striking in
+the self-drive until it got its test; the receipt carries the strike ledger.

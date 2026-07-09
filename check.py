@@ -66,11 +66,11 @@ drive = (ROOT / "DRIVE.md").read_text()
 passes = [int(n) for n in re.findall(r"^## Pass (\d+)", drive, re.M)]
 check(passes == list(range(7)), f"DRIVE.md pass ladder broken: {passes}")
 
-# 1b. Named-gap enumerations agree across surfaces ----------------------------
-# This class struck four times in the self-drive (a gap row added or changed
-# without sweeping the prose that enumerates the gaps). Enforced: every row
-# whose label BEGINS with "named-gap" in the denominator must have its id
-# named in the README's Status section.
+# 2. Parallel forms of one catalog agree: named-gap rows <-> README Status ----
+# This class kept recurring in the self-drive (a gap row added or changed
+# without sweeping the prose that enumerates the gaps — the receipt carries
+# the strike ledger). Enforced: every row whose label BEGINS with "named-gap"
+# in the denominator must have its id named in the README's Status section.
 canon = (ROOT / "docs" / "canonicality.md").read_text()
 gap_ids = [m.group(1) for m in re.finditer(
     r"^\|\s*([A-E]\d+)\s*\|[^|]*\|\s*named-gap", canon, re.M)]
